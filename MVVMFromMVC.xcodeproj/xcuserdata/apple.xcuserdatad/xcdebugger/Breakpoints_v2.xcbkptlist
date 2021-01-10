@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F52A76E2-F7E8-4829-80D8-B6D5900B9EA2"
+            uuid = "A7EB6447-30DB-40EC-A9A3-C2167C9ABD36"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MVVMFromMVC/Controllers/WeatherViewController.swift"
+            filePath = "MVVMFromMVC/View Models/WeatherViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "loadViewModel()"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchWeatherForLocation(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

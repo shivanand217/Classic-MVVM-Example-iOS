@@ -45,7 +45,7 @@ class WeatherbitService {
   private static let apiKey = "959e22c3a8d9456cbf4ee561cfa63030"
   private static let host = "api.weatherbit.io"
   private static let path = "/v2.0/current"
-  private static let fahrenheit = "I"
+  private static let fahrenheit = "C"
   private static let dateFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateFormat = "yyyy-MM-dd:HH"
