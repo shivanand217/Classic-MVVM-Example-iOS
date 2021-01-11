@@ -12,7 +12,6 @@ class WeatherViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
     loadViewModel()
   }
   
@@ -37,27 +36,4 @@ class WeatherViewController: UIViewController {
       self?.forecastSummary.text = fSummary
     }
   }
-
-//  func fetchWeatherForLocation(_ location: Location) {
-//    //1
-//    WeatherbitService.weatherDataForLocation(
-//      latitude: location.latitude,
-//      longitude: location.longitude) { [weak self] (weatherData, error) in
-//      //2
-//      guard
-//        let self = self,
-//        let weatherData = weatherData
-//        else {
-//          return
-//        }
-//      self.dateLabel.text =
-//        self.dateFormatter.string(from: weatherData.date)
-//      self.currentIcon.image = UIImage(named: weatherData.iconName)
-//      let temp = self.tempFormatter.string(
-//        from: weatherData.currentTemp as NSNumber) ?? ""
-//      self.currentSummaryLabel.text =
-//        "\(weatherData.description) - \(temp)℉"
-//      self.forecastSummary.text = "\nSummary: \(weatherData.description)"
-//    }
-//  }
 }

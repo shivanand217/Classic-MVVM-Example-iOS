@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		18A819FF25AB27A3001CFD5D /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A819FE25AB27A3001CFD5D /* Box.swift */; };
 		18A81A0325AB2AE0001CFD5D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A81A0225AB2AE0001CFD5D /* WeatherViewModel.swift */; };
+		18A81A0725ABD450001CFD5D /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A81A0625ABD44F001CFD5D /* WeatherViewModelTests.swift */; };
 		38159E9824352DD000819474 /* WeatherbitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38159E9724352DD000819474 /* WeatherbitData.swift */; };
 		38159E9A24352E8300819474 /* WeatherbitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38159E9924352E8300819474 /* WeatherbitService.swift */; };
 		3853FB7B237B8D1D00835B42 /* WeatherbitDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853FB7A237B8D1D00835B42 /* WeatherbitDataTests.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		18A819FE25AB27A3001CFD5D /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		18A81A0225AB2AE0001CFD5D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		18A81A0625ABD44F001CFD5D /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
 		38159E9724352DD000819474 /* WeatherbitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitData.swift; sourceTree = "<group>"; };
 		38159E9924352E8300819474 /* WeatherbitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherbitService.swift; sourceTree = "<group>"; };
 		3853FB78237B8D1D00835B42 /* MVVMFromMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMFromMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 				3864C3ED237CC1F4000C9CA0 /* LocationGeocoderTests.swift */,
 				3853FB7C237B8D1D00835B42 /* Info.plist */,
 				3853FB87237B9C0100835B42 /* WeatherbitExample.json */,
+				18A81A0625ABD44F001CFD5D /* WeatherViewModelTests.swift */,
 			);
 			path = MVVMFromMVCTests;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				3864C3EE237CC1F4000C9CA0 /* LocationGeocoderTests.swift in Sources */,
 				3853FB7B237B8D1D00835B42 /* WeatherbitDataTests.swift in Sources */,
+				18A81A0725ABD450001CFD5D /* WeatherViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
