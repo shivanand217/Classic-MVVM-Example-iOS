@@ -38,12 +38,22 @@ public class WeatherViewModel {
         return
       }
       
+      self.flushApiValues()
       if let location = locations.first {
         self.locationName.value = location.name
         self.fetchWeatherForLocation(location)
+        
         return
       }
     }
+  }
+  
+  func flushApiValues(){
+    self.locationName.value = "Not Found"
+    self.date.value = ""
+    self.icon.value = nil
+    self.summary.value = ""
+    self.forecastSummary.value = ""
   }
   
   private func fetchWeatherForLocation(_ location: Location) {
@@ -58,6 +68,10 @@ public class WeatherViewModel {
       }
       
       self.date.value = self.dateFormatter.string(from: weatherData.date)
+      self.icon.value = UIImage(named: weatherData.iconName)
+      let tempFormat = self.tempFormatter.string(from: weatherData.currentTemp as NSNumber) ?? ""
+      self.summary.value = "\(weatherData.description) - \(String(describing: tempFormat))°C"
+      self.forecastSummary.value = "\nSummary: \(weatherData.description)"
     }
   }
   
